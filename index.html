@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#4b0d19"><title>Naveen & Tripti — Engagement Invitation</title>
+  <meta name="description" content="An interactive engagement invitation for Naveen & Tripti.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="petals" aria-hidden="true"></div>
+<main>
+<section class="screen hero" id="home">
+  <div class="mandala"></div>
+  <div class="ganesha-watermark" aria-hidden="true">
+    <svg viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M150 45c-18 25-44 37-55 63-9 21-4 43 10 56-17 8-26 23-26 39 0 24 19 40 45 40h52c26 0 45-16 45-40 0-16-9-31-26-39 14-13 19-35 10-56-11-26-37-38-55-63Z" stroke="#f4d98b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M121 106c-20 7-35 25-35 47 0 13 5 25 14 34M179 106c20 7 35 25 35 47 0 13-5 25-14 34M139 128c-8 13-7 28 1 40M161 128c8 13 7 28-1 40" stroke="#f4d98b" stroke-width="7" stroke-linecap="round"/>
+      <path d="M150 146c-12 12-19 29-19 45 0 18 8 31 19 31s19-13 19-31c0-16-7-33-19-45Z" stroke="#f4d98b" stroke-width="7"/>
+      <circle cx="139" cy="119" r="4" fill="#f4d98b"/><circle cx="161" cy="119" r="4" fill="#f4d98b"/>
+      <path d="M110 211c10 13 24 20 40 20s30-7 40-20M113 239c12 7 24 10 37 10s25-3 37-10" stroke="#f4d98b" stroke-width="6" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div class="bell">ॐ</div>
+  <p class="eyebrow">॥ श्री गणेशाय नमः ॥</p><p class="subtle">With the blessings of our families</p>
+  <h1>Naveen<br><span>♥</span><br>Tripti</h1>
+  <p class="script">A new chapter begins…</p>
+  <button class="gold-btn" id="openBtn">Tap to Open Invitation</button><p class="tiny">Tap to begin • Sound will start with your tap</p>
+</section>
+<section class="content hidden" id="invitation">
+  <div class="music-bar"><button class="round-btn" id="musicBtn">▶</button><div><strong>Our Special Song</strong><span id="songLabel">Vaaroon Forever • Tap to play</span></div><div class="wave" id="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+  <audio id="audio" preload="auto"><source src="assets/vaaroon-forever.mp3" type="audio/mpeg"></audio>
+
+  <section class="card intro"><p class="eyebrow">Together with our families</p><h2>We cordially invite you</h2><p class="body-copy">to celebrate the beginning of our forever.</p><div class="photo-stack"><img src="assets/couple-1.jpeg" alt="Naveen and Tripti"><img src="assets/couple-2.jpeg" alt="Naveen and Tripti together"></div></section>
+
+  <section class="date-reveal card" id="date"><p class="eyebrow">A special day is coming</p><button id="revealDate" class="date-button"><span>Tap to reveal</span><strong>♥</strong></button><div class="date-result" id="dateResult"><div class="date-digits"><span class="d1">1</span><span class="d2">11</span><span class="d3">11 Nov</span><span class="d4">11 Nov 2026</span></div><div class="date-day">Wednesday</div><p>Save the date for our engagement</p></div></section>
+
+  <section class="story"><p class="eyebrow">Our Journey</p><h2>Then • Now • Next</h2><div class="timeline"><article><div class="story-img"><img src="assets/couple-1.jpeg" alt=""></div><span>THEN</span><h3>We met</h3><p>The beginning of a beautiful story.</p></article><div class="line"></div><article><div class="story-img"><img src="assets/couple-2.jpeg" alt=""></div><span>NOW</span><h3>We're engaged</h3><p>Celebrating love, family and togetherness.</p></article><div class="line"></div><article class="future"><div class="om">ॐ</div><span>NEXT</span><h3>Forever</h3><p>With blessings, laughter and countless memories.</p></article></div></section>
+
+  <section class="card venue"><p class="eyebrow">With divine blessings</p><h2>Join us at the venue</h2><div class="temple">🪔</div><h3>Rama Babu Ka Bagicha</h3><p>Hanuman Mandir<br>Deoria, U.P.</p><a class="map-btn" target="_blank" rel="noopener" href="https://maps.app.goo.gl/4BfGR1itUwJG3MVB8"><span>📍</span> Open in Google Maps</a></section>
+
+  <section class="actions"><button class="action" id="calendarBtn"><span>📅</span><b>Add to Calendar</b><small>Save the date</small></button><button class="action" data-rsvp="Yes! I'll be there 💛"><span>💌</span><b>I'll be there</b><small>Send RSVP</small></button><button class="action" data-rsvp="I'll send my blessings 🙏"><span>🙏</span><b>Send blessings</b><small>WhatsApp</small></button></section>
+
+  <section class="closing"><div class="divider">ॐ　♥　ॐ</div><p class="script">Please Join Us</p><h2>Naveen <span>♥</span> Tripti</h2><p>11 November 2026</p><p>Rama Babu Ka Bagicha<br>Hanuman Mandir, Deoria</p><div class="diya-row">🪔　🪔　🪔</div></section>
+</section></main><div class="toast" id="toast"></div><script src="script.js"></script>
+</body></html>
